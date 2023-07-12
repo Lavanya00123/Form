@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Project2.css">
+</head>
+<body> 
+    <form>
+    <fieldset class="field">
+        <h1>Registration</h1>
+    <table>
+  
+            <tr>
+                <td>
+                    <div class="formdesign" id="name">
+                    Full Name <br><input type="text" name="fname" placeholder="Enter your Name"><b><span class="formerror"></span></b>
+                </div>
+            </td>
+                <td>
+                    <div class="formdesign" id="name">
+                    <label for="nn">UserName</label><br>
+                    <input type="text" name="uname" placeholder="Enter your UserName"id="nn"required><b><span class="formerror"></span></b>
+                </div>
+            </td>
+            </tr>
+       
+            <tr>
+                <td>
+                    <div class="formdesign" id="email">
+                        <label for="nn">E-mail</label><br>
+                        <input type="email" name="femail" placeholder="Enter your Email" required><span class="formerror"></span>
+                    </div>
+                </td>
+                <td>
+                    <div class="formdesign" id="phone">
+                    <label for="nn">Phone Number</label><br>
+                    <input type="phone" name="fphone" placeholder="Enter your Number"required><span class="formerror"></span>
+                    </div>
+               </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="formdesign" id="pass">
+                        <label for="nn">Password</label><br>
+                        <input type="password" name="fpass" placeholder="Enter your Password"required><span class="formerror"></span>
+                    </div>
+                </td>
+                <td>
+                    <div class="formdesign" id="cpass">
+                        <label for="nn">Confirm Password</label><br>
+                        <input type="password" name="cpass" placeholder="Confirm your Password"required><span class="formerror"></span>
+                    </div>
+                </td>
+            </tr>
+        
+    </table>
+    <div class="Gen" id="pass"></div>
+        <label for="mm">Gender</label>
+        <br>
+            <input type="radio" name="fcpass"required>Male<span class="formerror"></span>
+            <input type="radio" name="fcpass"required>FeMale<span class="formerror"></span>
+            <input type="radio" name="fcpass"required>Prefer not to say<span class="formerror"></span>
+        </div>
+        <div>
+            <input class="but" type="submit" value="Register" >
+        </div>
+       
+   
+</fieldset> </form>
+    <script src="./Project2.js"></script>
+</body>
+</html>
